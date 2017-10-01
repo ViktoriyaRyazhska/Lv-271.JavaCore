@@ -1,0 +1,27 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+public class third {
+	public static void main(String[] args) throws IOException{
+		BufferedReader br = new BufferedReader( new InputStreamReader(System.in));
+		double c1 = 2.54;
+		double c2 = 3.76;
+		double c3 = 4.87;
+		System.out.println("How much minutes have been you talked in first country?");
+		double t1 = Double.parseDouble(br.readLine());
+		System.out.println("How much minutes have been you talked in second country?");
+		double t2 = Double.parseDouble(br.readLine());
+		System.out.println("How much minutes have been you talked in third country?");
+		double t3 = Double.parseDouble(br.readLine());
+		double p1 = c1 * t1;
+		double p2 = c2 * t2;
+		double p3 = c3 * t3;
+		double pc = p1 + p2 + p3;
+		System.out.println("In first country you paid:" + p1);
+		System.out.println("In second country you paid:" + p2);
+		System.out.println("In third country you paid:" + p3);
+		System.out.println("In common you paid:" + pc);
+		
+		
+	}
+}
