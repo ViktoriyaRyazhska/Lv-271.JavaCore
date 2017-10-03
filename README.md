@@ -1,1 +1,12 @@
 # Lv-271.JavaCore
+
+
+                   HW1
+Ruslan Vikhot       +
+Lubomyr Kovch       +
+Stepan Pasalskyi    +
+Yevgeniy Kundryukov +
+Nazar Kravets       +
+RomanHavdo          +
+TarasChaus          +
+Dziubanskyi
