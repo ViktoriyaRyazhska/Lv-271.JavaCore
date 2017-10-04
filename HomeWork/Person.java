@@ -30,9 +30,19 @@ public class Person {
 		this.name = name;
 		this.birthYear = birthYear;
 	}
-	public int age = 0;
+	
 	public int age() {
 		return 2017 - birthYear;
+	}
+	
+	public void input(String name, int birthYear) {
+		this.name = name;
+		this.birthYear = birthYear;
+	}
+	
+	public void output()
+	{
+		System.out.println("Person name = " + name + ", birthYear = " + birthYear + ", age = " + age() + ".");
 	}
 	
 	@Override
@@ -41,11 +51,7 @@ public class Person {
 	}
 
 	
-	 
-	/*BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 	
-	this.name = reader.ReadLine();
-	this.birthYear = Integer.parseInt(reader.readLine());*/
 	
 	public String chageName(String name) {
 		return this.name = name;
@@ -58,7 +64,9 @@ public class Person {
 		Person person4 = new Person("Pedro", 1967);
 		Person person5 = new Person("Ira", 1980);
 		
-		System.out.println(person3);
+		person2.output();
+		System.out.println(person5);
+		
 		
 
 	}
