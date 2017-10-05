@@ -1,4 +1,4 @@
-package lections.practiseTaskLection3;
+package lections;
 
 public class Employee {
 	private static int totalSum = 0;
@@ -34,7 +34,7 @@ public class Employee {
 		this.rate = rate;
 		this.hours = hours;
 	}
-	public int salary(Employee worker){
+	public int salary(){
 		int salary = rate*hours;
 		totalSum += salary;
 		return salary;
@@ -46,13 +46,14 @@ public class Employee {
 	public void changeRate(int rate){
 		this.rate = rate;
 	}
-	public double bonuses(Employee worker){
-		double bonuses = salary(worker)/10.0;
-		totalSum -= salary(worker);
+	public double bonuses(){
+		double bonuses = salary()/10.0;
+		totalSum -= salary();
 		return bonuses;
 	}
 	public static int getTotalSum(){
 		return totalSum;
 	}
+	
 	
 }
