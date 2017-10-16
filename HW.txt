@@ -6,4 +6,4 @@ Yevgeniy Kundryukov +
 Nazar Kravets       +   +   +   +
 RomanHavdo          +   +   +   +
 TarasChaus          +
-Dziubanskyi             +
+Dziubanskyi             +   +
