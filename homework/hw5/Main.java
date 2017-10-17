@@ -20,8 +20,8 @@ public class Main {
 		Car car1 = new Car("Ford", 1994, 1.2);
 		Car car2 = new Car("Mersedes", 2009, 1.4);
 		Car car3 = new Car("BMW", 2014, 4.0);
-		car.certainYear(br, car, car1, car2, car3);
 		Car[] cars = {car, car1, car2, car3};
+		car.certainYear(br, cars);
 		car.sortingYear(cars);
 	}
 }

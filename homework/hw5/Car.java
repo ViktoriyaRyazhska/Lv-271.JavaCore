@@ -47,13 +47,13 @@ public class Car {
 		return "Car [type=" + type + ", year=" + year + ", engCap=" + engCap + "]";
 	}
 
-	public void certainYear(BufferedReader rd, Car... car) throws NumberFormatException, IOException {
+	public void certainYear(BufferedReader rd, Car[] cars) throws NumberFormatException, IOException {
 		System.out.println("Enter the year: ");
 		int year = Integer.parseInt(rd.readLine());
 		int check=0;
-		for (Car cars : car) {
-			if (cars.getYear() == year) {
-				System.out.println("The model is: " + cars.getType());
+		for (int i = 0; i<cars.length; i++) {
+			if (cars[i].getYear() == year) {
+				System.out.println("The model is: " + cars[i].getType());
 				check++;
 			}
 			
