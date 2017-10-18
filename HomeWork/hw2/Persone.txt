@@ -1,0 +1,63 @@
+package Homework;
+
+import java.util.Scanner;;
+public class Person {
+	private String name;
+	private int birthYear ;
+	Scanner scanner = new Scanner(System.in);
+	
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getBirthYear() {
+		return birthYear;
+	}
+	public void setBirthYear(int birthYear) {
+		this.birthYear = birthYear;
+	}
+	
+	
+	public Person (){}
+	
+	public Person (String name,int birthYear){
+		this.name=name;
+		this.birthYear=birthYear;
+	}
+	
+	
+	public int age() {
+		return (2017-getBirthYear());
+	}
+///
+	
+	public void input() {
+		System.out.println("enter name ");
+		this.name = scanner.nextLine();
+		System.out.println("enter birthYear ");
+		this.birthYear = scanner.nextInt();
+	}
+	
+	public void input(String name,int birthYear){
+		this.name=name;
+		this.birthYear=birthYear;
+	}
+	
+	public void output() {
+		System.out.println("persone name = "+this.name);
+		System.out.println("persone birthYear = "+this.birthYear);
+		System.out.println("persone age = "+age());
+	}
+	
+	public void changeName() {
+		System.out.println("enter name of persone ");
+		this.name=scanner.nextLine();
+	}
+	
+	public void changeName(String name) {
+		this.name=name;
+	}
+}

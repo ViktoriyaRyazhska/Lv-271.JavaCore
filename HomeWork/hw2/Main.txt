@@ -1,0 +1,31 @@
+package Homework;
+
+//import java.util.Se;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Person person1 =new Person("Вася",1998);
+		Person person2 =new Person();
+		person2.setName("тарас");
+		person2.setBirthYear(1999);
+		Person person3 =new Person();
+		person3.input("Ігор", 1997);
+		Person person4 =new Person();
+		person4.input();
+		Person person5 =new Person();
+		person5.changeName();
+		person5.setBirthYear(1999);
+		
+		person1.output();
+		person2.output();
+		person3.output();
+		person4.output();
+		person5.output();
+		
+		//System.out.println(person1.age());
+		
+		
+	}
+
+}
