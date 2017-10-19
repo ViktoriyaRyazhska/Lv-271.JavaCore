@@ -1,0 +1,28 @@
+package Homework;
+import java.awt.font.NumericShaper.Range;
+import java.io.BufferedReader;
+import java.util.Scanner;
+public class Task_1_a {
+
+	public static void main(String[] args) {
+		Scanner scanner =new Scanner(System.in);
+		
+		System.out.println("show is you number's belong to the range ");
+		System.out.println("enter  numbers ");
+		System.out.println((range(scanner.nextDouble())));
+		System.out.println("enter  numbers ");
+		System.out.println((range(scanner.nextDouble())));
+		System.out.println("enter  numbers ");
+		System.out.println((range(scanner.nextDouble())));
+
+		
+	}
+
+	
+	public static boolean range(double numder ) {
+		if (numder<=5&&numder>=-5) {
+			return true;
+		} else return false;
+		
+	}
+}

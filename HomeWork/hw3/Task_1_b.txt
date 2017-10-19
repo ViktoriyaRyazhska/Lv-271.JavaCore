@@ -1,0 +1,26 @@
+package Homework;
+
+import java.util.Scanner;
+
+public class Task_1_b {
+	static Scanner scanner = new Scanner(System.in);
+	public static void main(String[] args) {
+	System.out.println("enter three numbers");
+	number1=scanner.nextDouble();
+	number2=scanner.nextDouble();
+	number3=scanner.nextDouble();
+	
+maxAndMin();
+	}
+	private static double number1=0,number2=0,number3=0;
+	
+	public static void maxAndMin() {
+		double max=number1,min=number1;
+		if(max<number2) {max=number2;}
+		if(max<number3) {max=number3;}
+System.out.println("max = "+max);
+if(min>number2) {min=number2;}
+if(min>number3) {min=number3;}
+System.out.println("min = "+min);
+	}
+}
