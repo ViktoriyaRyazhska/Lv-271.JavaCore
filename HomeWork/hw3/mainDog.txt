@@ -1,0 +1,24 @@
+package homeWork;
+
+import homeWork.Dog.breedOfDogs;
+
+public class mainDog {
+
+	public static void main(String[] args) {
+		Dog dog1= new Dog("Habl", 3,breedOfDogs.ALASKAN_MALAMUTE);
+		Dog dog2= new Dog("Kelvin", 4,breedOfDogs.AKITA);
+		Dog dog3= new Dog("Kelvin", 1,breedOfDogs.AMERICAN_FOXHOUND);
+		
+		
+		if((dog1.equals(dog2)||dog1.equals(dog3))||dog2.equals(dog3)){System.out.println("true are two dogs with equal names ");}
+		else System.out.println("false there not dogs with equal names"); 
+
+		System.out.println(dog1.getName());
+		System.out.println(dog2.getName());
+		System.out.println(dog3.getName());
+		System.out.println();
+		dog1.maxAge(dog2, dog3);
+		
+	}
+
+}
