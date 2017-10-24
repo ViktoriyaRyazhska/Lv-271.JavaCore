@@ -1,9 +1,10 @@
-                   HW1 HW3 HW4 HW5 HW6 HW7
-Ruslan Vikhot       +   +   +   +
-Lubomyr Kovch       +   +   +   +
+                   HW1 HW3 HW4 HW5 HW6 HW7 HW8
+Ruslan Vikhot       +   +   +   +   +   +
+Lubomyr Kovch       +   +   +   +   +   +
 Stepan Pasalskyi    +   +
 Yevgeniy Kundryukov +
-Nazar Kravets       +   +   +   +   +   +
-RomanHavdo          +   +   +   +   +
+Nazar Kravets       +   +   +   +   +   +   +
+RomanHavdo          +   +   +   +   +   +   +
 TarasChaus          +
 Dziubanskyi             +   +   +
+Majovets                +   +
