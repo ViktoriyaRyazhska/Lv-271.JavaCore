@@ -13,13 +13,11 @@ public class AppEmployee {
 
 			@Override
 			public int employeeld() {
-				// TODO Auto-generated method stub
 				return 0;
 			}
 
 			@Override
 			public double calculatePay() {
-				// TODO Auto-generated method stub
 				return 0;
 			}};
 		for (int i = 0; i < em.length - 1; i++) {
@@ -33,8 +31,6 @@ public class AppEmployee {
 		}
 		for (int i = 0; i < em.length; i++) {
 			System.out.println(em[i]);
-//			((SalariedEmployee)em[i]).output();
-//			((ContractEmployee)em[i]).output();
 		}
 		
 	}
