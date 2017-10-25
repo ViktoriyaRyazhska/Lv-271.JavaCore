@@ -53,7 +53,7 @@ public Person(String name, int birthYear){
 
 //returns current age
     public int age(){
-        if (this.birthYear > 0){
+        if (this.birthYear > 0 ){
             return getCurrentYear() - getBirthYear();
         }
         return -1;
