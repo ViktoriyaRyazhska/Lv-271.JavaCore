@@ -1,0 +1,48 @@
+package homework;
+
+import java.util.Scanner;
+
+public class Task_3 {
+
+	private int min=0,index=0;
+	private int arr1[]=new int[5];
+	
+	public void setArr1(Scanner scanner){
+		System.out.println("enter 5 numder");
+		for (int i=0;i<5;i++){
+			arr1[i]=scanner.nextInt();
+		}
+	}
+	
+	public int secndPositiveNumber(){
+		int n=0,index=0;
+		for (int i =0;i<5;i++){
+			if(arr1[i]>=0&&n<2){index=i; n++;
+				
+			}
+		}
+		
+		
+		return index;
+	}
+	
+	public void min(){
+	min=arr1[0];
+		for (int i = 0; i < 5; i++) {
+			if (min>arr1[i]){
+				min=arr1[i];index=i;
+				
+			}
+		}
+		System.out.println("min = "+min+"  index = "+index);
+	}
+	///////////////////////////////////////////////
+	public static void main(String[] args) {
+		Scanner scanner= new Scanner(System.in);
+		Task_3 obg1 =new Task_3();
+		obg1.setArr1(scanner);
+		System.out.println("second index of positive numder = "+obg1.secndPositiveNumber() );
+		obg1.min();
+	}
+
+}

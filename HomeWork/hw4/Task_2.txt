@@ -1,0 +1,47 @@
+package homework;
+
+import java.util.Scanner;
+
+public class Task_2 {
+	
+	private int[] arr1 =new int[10];
+	private double sum; 
+	
+	public void  setArr1(Scanner scanner){
+		System.out.println("enter 10 numder");
+		for(int i =0;i<10;i++){
+			arr1[i]=scanner.nextInt();
+		}
+	}
+	
+	public double sum(){
+		int  f=0;
+		for (int i=0;i<5;i++){
+			if(arr1[i]<0){f++;		
+			}
+		}
+		
+		if(f==0){for(int i=0;i<5;i++){
+			sum+=arr1[i];
+		}
+			
+		}else {
+			for (int i =5;i<10;i++){
+				sum+=arr1[i];
+				
+			}
+		}
+		return sum;
+	}
+	
+////////////////////////////////////////////// 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner  scanner =new Scanner(System.in);
+Task_2 obj1 = new Task_2();
+obj1.setArr1(scanner);
+System.out.println("sum ="+obj1.sum());
+
+	}
+
+}
