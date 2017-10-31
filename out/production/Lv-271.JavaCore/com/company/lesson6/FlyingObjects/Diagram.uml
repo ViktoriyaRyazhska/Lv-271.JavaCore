@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="198.0" y="249.0">com.company.lesson6.FlyingObjects.Swallow</node>
+    <node x="620.0" y="249.0">com.company.lesson6.FlyingObjects.Chicken</node>
+    <node x="497.5" y="147.0">com.company.lesson6.FlyingObjects.NonFlyingBird</node>
+    <node x="410.0" y="249.0">com.company.lesson6.FlyingObjects.Pinguin</node>
+    <node x="0.0" y="249.0">com.company.lesson6.FlyingObjects.Eagle</node>
+    <node x="90.0" y="147.0">com.company.lesson6.FlyingObjects.FlyingBird</node>
+    <node x="314.125" y="0.0">com.company.lesson6.FlyingObjects.Bird</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.lesson6.FlyingObjects.FlyingBird" target="com.company.lesson6.FlyingObjects.Bird">
+      <point x="0.0" y="-26.0" />
+      <point x="191.5" y="122.0" />
+      <point x="356.875" y="122.0" />
+      <point x="-42.75" y="48.5" />
+    </edge>
+    <edge source="com.company.lesson6.FlyingObjects.Eagle" target="com.company.lesson6.FlyingObjects.FlyingBird">
+      <point x="0.0" y="-26.0" />
+      <point x="89.0" y="224.0" />
+      <point x="140.75" y="224.0" />
+      <point x="-50.75" y="26.0" />
+    </edge>
+    <edge source="com.company.lesson6.FlyingObjects.Pinguin" target="com.company.lesson6.FlyingObjects.NonFlyingBird">
+      <point x="0.0" y="-26.0" />
+      <point x="505.0" y="224.0" />
+      <point x="554.0" y="224.0" />
+      <point x="-56.5" y="26.0" />
+    </edge>
+    <edge source="com.company.lesson6.FlyingObjects.NonFlyingBird" target="com.company.lesson6.FlyingObjects.Bird">
+      <point x="0.0" y="-26.0" />
+      <point x="610.5" y="122.0" />
+      <point x="442.375" y="122.0" />
+      <point x="42.75" y="48.5" />
+    </edge>
+    <edge source="com.company.lesson6.FlyingObjects.Swallow" target="com.company.lesson6.FlyingObjects.FlyingBird">
+      <point x="0.0" y="-26.0" />
+      <point x="294.0" y="224.0" />
+      <point x="242.25" y="224.0" />
+      <point x="50.75" y="26.0" />
+    </edge>
+    <edge source="com.company.lesson6.FlyingObjects.Chicken" target="com.company.lesson6.FlyingObjects.NonFlyingBird">
+      <point x="0.0" y="-26.0" />
+      <point x="716.0" y="224.0" />
+      <point x="667.0" y="224.0" />
+      <point x="56.5" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="449.5" y="387.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
