@@ -1,0 +1,25 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+
+public class radius {
+	public static void main(String[] args) throws IOException{
+		double pi = 3.14;
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("Hello, enter your Radius!");
+		double r = Double.parseDouble(br.readLine());
+		double z = 2*pi*r;
+		System.out.println("Radius is: " + z);
+		double a = pi*Math.pow(r, 2);
+		System.out.println("Area is: " + a);;
+		
+		
+		
+	}
+
+	private static double pow(double r, int i) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+}

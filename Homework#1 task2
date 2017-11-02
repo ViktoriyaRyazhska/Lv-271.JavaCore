@@ -1,0 +1,17 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+
+public class second {
+	public static void main(String[] args) throws IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("What is your name?");
+		String name = br.readLine();
+		System.out.println("Your name is: " + name);
+		System.out.println("Where do you live?");
+		String address = br.readLine();
+		System.out.print("Okay, " + name);
+		System.out.println(", you live in " + address);
+		
+	}
+}
