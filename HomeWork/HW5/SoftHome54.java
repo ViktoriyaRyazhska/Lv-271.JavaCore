@@ -2,25 +2,21 @@ package HW5;
 
 import java.util.Scanner;
 
-public class SoftHome54 {
+public class Home02 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        int[] array=new int[5];
-
-         for(int i=0;i<array.length; i++){
-             array[i] = sc.nextInt();
-             if(array[i]<0){
-                 break;
-             }
-        }
-        int product = 1;
-        for (int i = 0; i < 5; i++) {
-            if (array[i] > 0) {
-                product = product * array[i];
+        Scanner sc=new Scanner(System.in);
+        int arr[]=new int[5];
+        int product=1;
+        for(int i:arr){
+            arr[i]=sc.nextInt();
+            if(arr[i]<0){
+                break;
+            }
+            if(arr[i]%2==0){
+                product*=arr[i];
             }
         }
-        System.out.println("Product = " + product);
-
+        System.out.println("Product="+product);
     }
 }
+
