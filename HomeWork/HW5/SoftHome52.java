@@ -9,8 +9,9 @@ public class SoftHome52 {
 
         int[] array = new int[10];
 
-        for (int i = 0; i < array.length; i++) {
-            array[i] = sc.nextInt();
+       for(int i:arr){
+            System.out.println("Plz input number");
+            arr[i]=sc.nextInt();
         }
 
         int sum = 0;
